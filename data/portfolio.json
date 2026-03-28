@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "owner": "Seu Nome",
+    "last_update": "2026-03-28",
+    "currency": "BRL",
+    "strategy": "Growth + Dividendos",
+    "objectives": [
+      "Geração de renda passiva",
+      "Valorização de longo prazo",
+      "Diversificação setorial"
+    ]
+  },
+  "portfolio": {
+    "total_invested": 100000,
+    "allocation_strategy": {
+      "stocks": 70,
+      "reits": 20,
+      "cash": 10
+    },
+    "assets": [
+      {
+        "ticker": "TAEE11",
+        "type": "stock",
+        "sector": "Energia",
+        "thesis": "Empresa consolidada com forte geração de caixa e dividendos consistentes",
+        "allocation_percent": 12,
+        "average_price": 36.50,
+        "current_price": null,
+        "metrics": {
+          "dividend_yield": 0.12,
+          "p_l": 8.5,
+          "roe": 0.18,
+          "roic": 0.15
+        },
+        "tags": ["dividendos", "bazin", "defensiva"],
+        "risks": [
+          "Regulação do setor",
+          "Dependência de concessões"
+        ]
+      },
+      {
+        "ticker": "WEGE3",
+        "type": "stock",
+        "sector": "Industrial",
+        "thesis": "Empresa com forte crescimento e presença global",
+        "allocation_percent": 15,
+        "average_price": 32.00,
+        "current_price": null,
+        "metrics": {
+          "dividend_yield": 0.015,
+          "p_l": 35,
+          "roe": 0.25,
+          "roic": 0.22
+        },
+        "tags": ["growth", "lynch", "qualidade"],
+        "risks": [
+          "Valuation elevado",
+          "Exposição ao mercado externo"
+        ]
+      },
+      {
+        "ticker": "ITSA4",
+        "type": "stock",
+        "sector": "Financeiro",
+        "thesis": "Holding sólida com histórico de dividendos consistentes",
+        "allocation_percent": 10,
+        "average_price": 9.80,
+        "current_price": null,
+        "metrics": {
+          "dividend_yield": 0.08,
+          "p_l": 9,
+          "roe": 0.16,
+          "roic": 0.12
+        },
+        "tags": ["dividendos", "bazin", "value"],
+        "risks": [
+          "Dependência do setor bancário"
+        ]
+      },
+      {
+        "ticker": "HGLG11",
+        "type": "reit",
+        "sector": "Logística",
+        "thesis": "FII de logística com contratos longos e boa previsibilidade",
+        "allocation_percent": 10,
+        "average_price": 160.00,
+        "current_price": null,
+        "metrics": {
+          "dividend_yield": 0.075,
+          "vacancy_rate": 0.05
+        },
+        "tags": ["fii", "renda_passiva"],
+        "risks": [
+          "Vacância",
+          "Cenário macroeconômico"
+        ]
+      }
+    ]
+  },
+  "rules": {
+    "max_allocation_per_asset": 15,
+    "min_dividend_yield": 0.06,
+    "target_roic": 0.15,
+    "rebalance_frequency": "quarterly"
+  },
+  "watchlist": [
+    {
+      "ticker": "BBAS3",
+      "reason": "Alto dividend yield e valuation atrativo"
+    },
+    {
+      "ticker": "SAPR11",
+      "reason": "Empresa de saneamento com previsibilidade"
+    }
+  ],
+  "cash_reserve": {
+    "value": 10000,
+    "objective": "Oportunidades de mercado e proteção"
+  }
+}
