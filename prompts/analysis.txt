@@ -1,0 +1,23 @@
+Analise a ação [NOME] considerando:
+
+1. Benjamin Graham:
+   - Valor intrínseco
+   - Margem de segurança
+
+2. Décio Bazin:
+   - Histórico de dividendos
+   - Consistência de pagamentos
+
+3. Peter Lynch:
+   - Crescimento
+   - Modelo de negócio
+
+4. Joel Greenblatt:
+   - ROIC
+   - Earnings Yield
+
+Retorne:
+- Pontos positivos
+- Riscos
+- Avaliação geral
+- Recomendação (comprar, manter ou evitar)
